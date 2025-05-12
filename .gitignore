@@ -1,0 +1,44 @@
+# Python: кеши, байткод и временные файлы
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Виртуальные окружения
+myenv/
+.venv/
+env/
+.venv/
+.env
+
+# Конфигурационные и временные файлы
+*.log
+*.pid
+*.sock
+
+# Личные/локальные настройки
+.vscode/
+.idea/
+
+# Alembic и конфиги
+alembic.ini
+
+# Игнорировать config.py во всех папках
+**/config.py
+
+# Временные или рабочие директории 
+file/
+dist/
+build/
+
+# База данных 
+*.sqlite3
+*.db
+*.sql
+*.dump
+
+# Системный мусор
+.DS_Store
+Thumbs.db
+
+# Логи
+.cerebro_history
